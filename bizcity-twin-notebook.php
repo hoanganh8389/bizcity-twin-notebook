@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       BizCity Twin Notebook (Notebook · Twin Chat · Đồ thị tri thức)
- * Plugin URI:        https://github.com/hoanganh8389/zalo-brain-notebook
+ * Plugin URI:        https://github.com/hoanganh8389/bizcity-twin-notebook
  * Description:       Notebook học sâu cho Zalo Brain: đồ thị tri thức (KG), Twin Chat, học tài liệu thành notebook, hỏi đồ thị. Cần plugin Zalo Brain (bizcity-twin-ai) — tên thư mục không quan trọng. Không có plugin này Zalo Brain vẫn đủ: Kho tri thức + Guru trả lời từ Vault.
  * Version:           1.0.0
  * Requires PHP:      7.4

@@ -1,0 +1,26 @@
+# [2026-11-14 Johnny Chu - Chu Hoàng Anh] PHASE-0.148 W3 — bizcity-twin-notebook repo = the runtime package (R-PROD-REPO, same allowlist idea as zalo-brain):
+# PHP, contracts, prompts, assets and the built TwinChat UI (ui/dist) only. Sources of the UI (ui/src), docs, tests, diagnostics (R-DIAG-LOCAL),
+# reference libraries (_library), logs and build configs stay on the dev machine.
+/*
+!/.gitignore
+!/bizcity-twin-notebook.php
+!/zalo-brain.json
+!/README.md
+!/kg/
+!/twinchat/
+
+**/_archived/
+**/_library/
+**/docs/
+**/tests/
+**/node_modules/
+**/src/
+**/diagnostics/
+**/.vite/
+!**/dist/.vite/
+**/*.log
+**/*.out
+**/*.code-workspace
+
+/twinchat/ui/*
+!/twinchat/ui/dist/

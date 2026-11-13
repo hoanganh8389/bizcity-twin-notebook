@@ -1,0 +1,13 @@
+{
+  "contract": "zalo-brain-extension@1",
+  "id": "bizcity-twin-notebook",
+  "name": "Zalo Brain Notebook",
+  "version": "1.0.0",
+  "requires": { "zalo-brain": ">=1.4.0" },
+  "features": [ "notebook", "twinchat", "knowledge_graph" ],
+  "surfaces": [ { "surface": "twinchat", "pages": [ "chat", "sources", "notes", "learning", "graph" ] } ],
+  "tables_changelog": "core.knowledge.kg-hub",
+  "mcp_tools": [],
+  "_mcp_note": "[2026-11-13 08:33 PM Johnny Chu - Chu Hoàng Anh] PHASE-0.148 W3 S148-N1 — brain.graph_ask / brain.list_notebooks / brain.get_passage / brain.get_citation_pack / brain.context.* are still registered by core/mcp (class-mcp-tool-registry.php) and answer through BizCity_Notebook_Port; notebook.study is offered only when this add-on answers bizcity_journal_study. Move them here (and list them) in S148-N5. tables_changelog keeps the core changelog id until the installer moves (S148-N4, D148-9).",
+  "licence": { "tier": "free", "_note": "bundled in Zalo Brain until 0.148 — tier is the owner's call (not read by any code today)" }
+}

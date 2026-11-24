@@ -1,0 +1,17 @@
+{
+  "schema": "bizcity_app@1",
+  "id": "bizcity-twin-notebook",
+  "name": "Open Notebook (Twin Notebook)",
+  "repo": "hoanganh8389/bizcity-twin-notebook",
+  "public": true,
+  "runtime": "wordpress-php",
+  "license": "GPL-2.0-or-later",
+  "paid": false,
+  "axes": {
+    "owns": ["notebook"],
+    "uses": ["tenant", "user", "document"]
+  },
+  "contracts": ["bizcity_spine@1", "bizcity_mcp@1"],
+  "docs": { "canon": "CANON-SPINE.md" },
+  "notes": "Ghi chú có nguồn, đồ thị tri thức, Twin Chat cho Open Brain. Sổ riêng: notebook (ghi chú có nguồn). Dẫn nguồn tới chứng từ app khác bằng doc_ref, không sao chép dữ liệu nghiệp vụ. Cắm vào Open Brain (bizcity-twin-ai), không chạy một mình."
+}
